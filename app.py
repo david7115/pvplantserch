@@ -4,7 +4,7 @@ import pandas as pd
 
 # ✅ API 인증키 (공공데이터포털 디코딩된 키)
 SERVICE_KEY = 'ZarTYb88UP8FCrJp2W+Wxiu4ffdIgJluH8tBA8FKMt553Y+PuBf/2Cxi61wxKU/GfGdeINYC8KuofirJkyf0rA=='
-BASE_URL = 'https://api.data.go.kr/openapi/tn_pubr_public_solar_gen_flct_api'
+BASE_URL = 'http://api.data.go.kr/openapi/tn_pubr_public_solar_gen_flct_api'
 
 # ✅ 시군구별 샘플 기관
 CITY_CODE_MAP = {
