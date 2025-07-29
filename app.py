@@ -6,8 +6,7 @@ from urllib.parse import urlparse
 
 # ✅ 인증키 (디코딩된 일반 인증키)
 SERVICE_KEY = 'ZarTYb88UP8FCrJp2W+Wxiu4ffdIgJluH8tBA8FKMt553Y+PuBf/2Cxi61wxKU/GfGdeINYC8KuofirJkyf0rA=='
-BASE_URL = 'https://api.data.go.kr/openapi/tn_pubr_public_solar_gen_flct_api'
-
+url = 'http://api.data.go.kr/openapi/tn_pubr_public_solar_gen_flct_api'
 # ✅ 도메인 검증 함수
 def is_valid_domain(url):
     parsed = urlparse(url)
